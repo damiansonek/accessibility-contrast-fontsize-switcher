@@ -1,0 +1,55 @@
+
+/* switcher */
+
+.accessibility {
+    display:flex;
+    list-style:none;
+    padding-left:0;
+    width:100%;
+    margin-top:4rem;
+    justify-content: space-between;
+}
+
+.accessibility--icon {
+    height:24px;
+}
+
+.accessibility--icon:hover {
+    cursor:pointer;
+    opacity: .7;
+}
+
+/* contrast mode */
+
+.contrast-mode {
+    background-color: black !important;
+}
+
+.contrast-mode h1,
+.contrast-mode p {
+    color: yellow;
+}
+
+.contrast-mode .accessibility--icon {
+    filter: invert(1)
+}
+
+/* A+ mode */
+
+.fontsize2x h1 {
+    font-size: 3rem;
+}
+
+.fontsize2x p {
+    font-size: 2rem;
+}
+
+/* A++ mode */
+
+.fontsize3x h1 {
+    font-size: 4.5rem;
+}
+
+.fontsize3x p {
+    font-size: 3rem;
+}
